@@ -747,7 +747,7 @@ body.dark-theme {
 
 /*=============== SKILLS ===============*/
 .skills__container {
-  grid-template-columns: 250px;
+  /* grid-template-columns: 250px; */
   justify-content: center;
   row-gap: 2rem;
   padding-top: 1rem;
@@ -779,7 +779,7 @@ body.dark-theme {
 }
 
 .skills__card:hover .skills__border {
-  transform: translate(4.5rem, 1rem);
+  transform: translate(1.5rem, 1.2rem);
 }
 
 .skills__icon {
