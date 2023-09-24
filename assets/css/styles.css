@@ -1347,7 +1347,7 @@ img.projects__img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 340px) {
+/* @media screen and (max-width: 340px) {
   .container {
     margin-inline: 1rem;
   }
@@ -1372,7 +1372,7 @@ img.projects__img {
   .contact__data .section__title-2 {
     transform: translateX(0);
   }
-}
+} */
 
 @media screen and (max-width: 576px) {
     .home__container,
