@@ -473,7 +473,7 @@ body.dark-theme {
   background-color: var(--black-color-light);
   color: var(--white-color);
   font-size: 1.25rem;
-  padding: 6px;
+  padding: 6px !important;
   display: grid;
   place-items: center;
   transition: background-color 0.3s;
@@ -548,16 +548,16 @@ body.dark-theme {
 
 .ri-linkedin-box-line,
 .ri-github-line {
-    font-size: 24px;
-    width: 24px;
-    height: 24px;
+    font-size: 24px !important;
+    width: 24px !important;
+    height: 24px !important;
 }
 
 .home__social-link i,
 .home__social-link svg {
-    width: 24px;
-    height: 24px;
-    box-sizing: border-box;
+    width: 24px !important;
+    height: 24px !important;
+    box-sizing: border-box !important;
 }
 
 
@@ -1744,7 +1744,7 @@ img.projects__img {
 
   .home__social-link {
     font-size: 1.5rem;
-    padding: 0.5rem;
+    padding: 0.5rem !important;
   }
 
   .about__container {
