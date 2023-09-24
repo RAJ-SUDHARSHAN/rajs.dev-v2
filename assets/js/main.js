@@ -183,6 +183,6 @@ sr.reveal(`.skills__card, .projects__card`, {interval: 100})
 sr.reveal('.section__title-2', {origin: 'top'});
 sr.reveal('.section__title-1', {origin: 'top'}); 
 sr.reveal('.exp__toggle', {origin: 'left', interval: 100}); 
-sr.reveal('.details', {origin: 'right'});
+// sr.reveal('.details', {origin: 'right'});
 
 
