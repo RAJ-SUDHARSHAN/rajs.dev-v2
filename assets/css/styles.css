@@ -459,14 +459,14 @@ body.dark-theme {
 }
 
 .home__social {
-  height: max-content !important;
-  position: absolute !important;
-  left: -3rem !important;
-  top: 0 !important;
-  bottom: 0 !important;
-  margin: auto 0 !important;
-  display: grid !important;
-  row-gap: 1rem !important;
+  height: max-content ;
+  position: absolute ;
+  left: -3rem ;
+  top: 0 ;
+  bottom: 0 ;
+  margin: auto 0 ;
+  display: grid ;
+  row-gap: 1rem ;
 }
 
 .home__social-link {
@@ -1396,6 +1396,14 @@ img.projects__img {
       grid-template-columns: 350px;
       justify-content: center;
     }
+
+    .home__social  {
+      display: none;
+    }
+
+    .geometric-box {
+      display: none;
+    }
     
     .experience{
       font-size: var(--small-font-size);
@@ -1446,12 +1454,20 @@ img.projects__img {
     }
   }
 /* For medium devices */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 575px) and (max-width: 1149px) {
   .home__container,
   .about__container,
   .projects__container {
     grid-template-columns: 350px;
     justify-content: center;
+  }
+
+  .home__social  {
+    display: none;
+  }
+
+  .geometric-box {
+    display: none;
   }
 
   .contact__data {
@@ -1562,11 +1578,7 @@ img.projects__img {
     padding-right: 0;
   }
 }
-/* @media screen and (max-width: 1150px) {
-.home__social{
-  display: none;
-}
-} */
+
 /* For large devices */
 @media screen and (min-width: 1150px) {
   .container {
@@ -1581,6 +1593,14 @@ img.projects__img {
   .section__title-2::after {
     width: 70px;
     height: 48px;
+  }
+
+  .home__social  {
+    display: absolute;
+  }
+
+  .geometric-box {
+    display: absolute;
   }
 
   .geometric-box {
@@ -1920,6 +1940,7 @@ img.projects__img {
     grid-template-columns: 440px 670px;
     grid-template-rows: initial;
     padding-bottom: 2rem;
+    justify-content: center;
   }
 
   .contact__mail {
@@ -1961,6 +1982,7 @@ img.projects__img {
   }
 
   .contact__social {
+    background-color: transparent;
     margin-left: 8rem;
     text-align: initial;
   }
@@ -1973,6 +1995,7 @@ img.projects__img {
 
   .contact__social-arrow {
     width: 40px;
+    filter: invert(1);
   }
 
   .contact__social-link {
@@ -1987,6 +2010,19 @@ img.projects__img {
   .dark-theme .contact__data {
     box-shadow: 4px 0 8px hsla(0, 0%, 4%, 0.3);
   }
+
+  .contact__social-desscription-1 {
+    color: var(--text-color);
+  }
+
+  .contact__social-description-2 {
+    color: var(--title-color);
+  }
+
+  .dark-theme .contact__social-arrow {
+    filter: none;
+  }
+
 
   .footer__container {
     padding-block: 4rem;
